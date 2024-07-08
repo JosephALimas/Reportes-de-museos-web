@@ -1,0 +1,58 @@
+.hidden{
+    display: none;
+}
+.head_text{
+    font-size: 1rem;
+    padding: 1rem;
+}
+.title_custom{
+    font-size: 2rem;
+}
+.info-custom{
+    text-align: center;
+}
+.table-container {
+    max-height: 400px; 
+    overflow-y: auto;
+    position: relative;
+  }
+.table thead th {
+    position: sticky;
+    top: 0;
+    background: #4492df; 
+    color: white;
+    text-transform: uppercase; 
+    letter-spacing: 0.05em;
+    padding: 12px 15px; 
+    border-bottom: 2px solid #133d67;
+    font-size: 16px; 
+    font-family: 'Arial', sans-serif; 
+    text-align: center;
+    z-index: 100; 
+  }
+  #4492df
+.table-primary thead th {
+    position: sticky;
+    top: 0;
+    background: #6166ff; /* Color de fondo más intenso */
+    color: white; /* Color del texto */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    letter-spacing: 0.1em; /* Espaciado entre letras más pronunciado */
+    padding: 14px 18px; /* Espaciado interior mayor */
+    border-bottom: 3px solid #18033c; /* Borde inferior más grueso */
+    font-size: 18px; /* Tamaño de fuente mayor */
+    font-family: 'Arial', sans-serif; /* Fuente */
+    text-align: center; /* Alineación del texto */
+    z-index: 100; /* Asegura que el encabezado esté por encima del contenido */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Añade una sombra para dar profundidad */
+  }
+.resume-text{
+    font-size: 5rem;
+}
+.text-adjust{
+    padding: 10rem;
+}
+.btn-color{
+    background-color: #6166ff;
+    color: aliceblue;
+}
